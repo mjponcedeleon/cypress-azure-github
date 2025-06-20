@@ -7,6 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here if needed
     },
   },
+  video: true, 
   reporter: 'junit',
   reporterOptions: {
     mochaFile: 'cypress/results/results-[hash].xml',
